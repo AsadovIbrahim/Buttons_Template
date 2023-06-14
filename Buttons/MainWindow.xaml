@@ -1,0 +1,39 @@
+﻿<Window x:Class="Buttons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buttons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="800">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button Style="{StaticResource Button}" Content="BUTTON" Grid.Column="0" Grid.Row="0" />
+        <Button Style="{StaticResource Button1}"  Content="BUTTON" Grid.Column="1" Grid.Row="0"/>
+        <Button Style="{StaticResource Button2}"  Content="BUTTON" Grid.Column="2" Grid.Row="0"/>
+        <Button Style="{StaticResource Button3}"  Content="BUTTON" Grid.Column="0" Grid.Row="1"/>
+        <Button Style="{StaticResource Button4}"  Content="BUTTON" Grid.Column="1" Grid.Row="1"/>
+        <Button Style="{StaticResource Button5}"  Content="BUTTON" Grid.Column="0" Grid.Row="2"/>
+        <Button Style="{StaticResource Button6}"  Content="BUTTON" Grid.Column="1" Grid.Row="2"/>
+        <Button Style="{StaticResource Button7}"  Content="BUTTON" Grid.Column="2" Grid.Row="2"/>
+        <Button Style="{StaticResource Button8}"  Content="BUTTON" Grid.Column="0" Grid.Row="3"/>
+        <Button Style="{StaticResource Button9}"  Content="BUTTON" Grid.Column="1" Grid.Row="3"/>
+        <Button Style="{StaticResource Button10}"  Content="BUTTON" Grid.Column="0" Grid.Row="4"/>
+        <Button Style="{StaticResource Button11}"  Content="BUTTON" Grid.Column="1" Grid.Row="4"/>
+        <Button Style="{StaticResource Button12}"  Content="BUTTON" Grid.Column="0" Grid.Row="5"/>
+
+    </Grid>
+</Window>
